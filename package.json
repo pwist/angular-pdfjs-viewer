@@ -2,7 +2,12 @@
   "name": "angular-pdfjs-viewer",
   "description": "Embed PDF.js viewer into your angular application",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+		"angular": "^1.5.8",
+		"pdf.js-viewer": "~1.6.211",
+		"cors": "^2.7.1",
+		"express": "^4.13.3"
+	},
   "license": "MIT",
   "main": "dist/angular-pdfjs-viewer.js"
   "devDependencies": {
